@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "keplertool"
+version = "0.1.0"
+description = "Core CLI utilities: greet and add"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.scripts]
+keplertool = "keplertool.cli:main"
+
+[tool.keplertool]
+description-marker = true
