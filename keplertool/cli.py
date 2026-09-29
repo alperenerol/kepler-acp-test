@@ -64,3 +64,7 @@ def main(argv=None):
 
     # No subcommand given: standard argparse usage error (SystemExit, code 2).
     parser.error("the following arguments are required: command")
+
+
+if __name__ == "__main__":
+    sys.exit(main())
