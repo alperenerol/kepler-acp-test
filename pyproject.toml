@@ -13,5 +13,8 @@ dependencies = []
 [project.scripts]
 keplertool = "keplertool.cli:main"
 
+[tool.setuptools]
+packages = ["keplertool"]
+
 [tool.keplertool]
 description-marker = true
